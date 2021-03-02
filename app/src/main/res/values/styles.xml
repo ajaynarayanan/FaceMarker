@@ -1,0 +1,27 @@
+<resources>
+
+<!--    &lt;!&ndash; Base application theme. &ndash;&gt;-->
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--        <item name="android:windowTranslucentStatus">true</item>-->
+<!--    </style>-->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Clickable">
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="TextAppearanceMainVisionNlp" parent="TextAppearance.AppCompat.Display1">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:letterSpacing">0.2</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+</resources>
